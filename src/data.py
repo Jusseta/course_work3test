@@ -1,8 +1,8 @@
 import json
 
 
-def get_data():
-    with open('operations.json', encoding='utf-8') as file:
+def get_data(json_file):
+    with open(json_file, encoding='utf-8') as file:
         all_data = json.loads(file.read())
         return all_data
 

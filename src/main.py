@@ -4,7 +4,7 @@ from utils import get_operations
 from utils import encode_numbers
 
 
-data = sort_data(get_data())
+data = sort_data(get_data('operations.json'))
 encode_operations = encode_numbers(get_operations(data))
 
 
